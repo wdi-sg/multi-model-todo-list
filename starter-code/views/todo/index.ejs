@@ -1,0 +1,20 @@
+<div class="container">
+  <h1 class="page-header">Things to do</h1>
+
+<ul class="list-group">
+  <% todos.forEach(function (todoItem) { %>
+    <li class="list-group-item">
+      <strong><%= todoItem.title %>: </strong>
+      <%= todoItem.description %>
+      || Completed:
+      <% if (todoItem.completed == true) { %>
+        <span class="label label-success">True</span>
+      <% } else if (todoItem.completed == false) { %>
+        <span class="label label-danger">False</span>
+      <% } %>
+      <a class="pull-right" href=<%= "/todo/" + todoItem._id %>>View</a>
+    </li>
+  <% }) %>
+</ul>
+
+</div>

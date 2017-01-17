@@ -1,0 +1,29 @@
+{
+  "name": "express-todo-list-pt2",
+  "version": "1.0.0",
+  "description": "This is Part 4 of a series of labs working towards building your first full stack web app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdi-sg/express-todo-list-pt2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wdi-sg/express-todo-list-pt2/issues"
+  },
+  "homepage": "https://github.com/wdi-sg/express-todo-list-pt2#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "express-ejs-layouts": "^2.2.0",
+    "method-override": "^2.3.7",
+    "mongoose": "^4.7.7",
+    "nodemon": "^1.11.0"
+  }
+}
