@@ -23,7 +23,7 @@ app.set('view engine', 'ejs')
 
 app.use('/todo', todo)
 
-app.use('/', (req, res) => {
+app.get('/', (req, res) => {
   res.send('Vell, vell, vell. Vellcome to my app.')
 })
 
