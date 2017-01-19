@@ -5,9 +5,10 @@ This is Part 5 of a series of labs working towards building your first full stac
 - [Part 1 - TDD todo list](https://github.com/wdi-sg/tdd-todo-list)
 - [Part 2 - Mongo todo list](https://github.com/wdi-sg/mongo-todo-list)
 - [Part 3 - Express todo list pt1](https://github.com/wdi-sg/express-todo-list-pt1)
-- (optional) [Part 3.1 - Mocha, Chai and Supertest todo list](https://github.com/wdi-sg/mocha-todo-list)
+- [Part 3.1 - Mocha, Chai and Supertest todo list](https://github.com/wdi-sg/mocha-todo-list) (Optional)
 - [Part 4 - Express todo list pt2](https://github.com/wdi-sg/express-todo-list-pt2)
-- Part 5 - (this one)
+- Part 5 - (this repo)
+- [Part 6 - Users todo list](https://github.com/wdi-sg/users-todo-list)
 
 So far you've built a full MVC Todo List Application. This is a great achievement but it's time to take it up a notch. In this Lab you'll be extending your Application to support multiple Models. 
 
