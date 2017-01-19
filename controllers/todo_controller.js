@@ -40,7 +40,7 @@ let todosController = {
 
   update: (req, res) => {
     Todo.findOneAndUpdate({
-      id: req.params._id
+      _id: req.params.id
     }, {
       title: req.body.title,
       description: req.body.description,
