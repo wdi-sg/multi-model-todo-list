@@ -24,7 +24,7 @@ app.set('view engine', 'ejs')
 // app.use('/todo', todo)
 
 app.get('/', (req, res) => {
-  res.send('Vell, vell, vell. Vellcome to my app.')
+  res.send('My new homepage.')
 })
 
 app.listen(process.env.PORT || 3000, function () {
